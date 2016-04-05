@@ -1,0 +1,255 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.ead.discorso.CreateMessageActivity">
+
+    <RelativeLayout
+        android:id="@+id/displayLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+        <TextView
+            android:id="@+id/textView1"
+            android:text=""
+            android:textSize="25sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:padding="8dp"
+        android:id="@+id/visualEffectLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/displayLayout">
+
+        <com.ead.discorso.VerticalProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/voiceProgressBar1"
+            android:max="100"
+            android:progress="90"
+            android:maxWidth="10dip"
+            android:minWidth="10dip"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true" />
+
+        <com.ead.discorso.VerticalProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/voiceProgressBar2"
+            android:max="100"
+            android:progress="90"
+            android:maxWidth="10dip"
+            android:minWidth="10dip"
+            android:layout_marginStart="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/voiceProgressBar1"
+            android:layout_marginLeft="1dp"
+            android:layout_alignParentBottom="true"/>
+
+        <com.ead.discorso.VerticalProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/voiceProgressBar3"
+            android:max="100"
+            android:progress="90"
+            android:maxWidth="10dip"
+            android:minWidth="10dip"
+            android:layout_marginStart="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/voiceProgressBar1"
+            android:layout_marginLeft="1dp"
+            android:layout_alignParentBottom="true" />
+
+        <com.ead.discorso.VerticalProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/voiceProgressBar4"
+            android:max="100"
+            android:progress="90"
+            android:maxWidth="10dip"
+            android:minWidth="10dip"
+            android:layout_marginStart="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/voiceProgressBar1"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentBottom="true" />
+
+        <com.ead.discorso.VerticalProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/voiceProgressBar5"
+            android:max="100"
+            android:progress="90"
+            android:maxWidth="10dip"
+            android:minWidth="10dip"
+
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/voiceProgressBar1"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentBottom="true" />
+
+        <com.ead.discorso.VerticalProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/voiceProgressBar6"
+            android:max="100"
+            android:progress="90"
+            android:maxWidth="10dip"
+            android:minWidth="10dip"
+            android:layout_marginStart="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/voiceProgressBar1"
+            android:layout_marginLeft="20dp"
+            android:layout_alignParentBottom="true" />
+
+        <com.ead.discorso.VerticalProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/voiceProgressBar7"
+            android:max="100"
+            android:progress="90"
+            android:maxWidth="10dip"
+            android:minWidth="10dip"
+
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/voiceProgressBar1"
+            android:layout_marginRight="20dp"
+            android:layout_alignParentBottom="true" />
+
+        <com.ead.discorso.VerticalProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/voiceProgressBar8"
+            android:max="100"
+            android:progress="90"
+            android:maxWidth="10dip"
+            android:minWidth="10dip"
+            android:layout_marginStart="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/voiceProgressBar1"
+            android:layout_marginLeft="30dp"
+            android:layout_alignParentBottom="true" />
+
+        <com.ead.discorso.VerticalProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/voiceProgressBar9"
+            android:max="100"
+            android:progress="90"
+            android:maxWidth="10dip"
+            android:minWidth="10dip"
+
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/voiceProgressBar1"
+            android:layout_marginRight="30dp"
+            android:layout_alignParentBottom="true" />
+
+        <com.ead.discorso.VerticalProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/voiceProgressBar10"
+            android:max="100"
+            android:progress="90"
+            android:maxWidth="10dip"
+            android:minWidth="10dip"
+            android:layout_marginStart="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/voiceProgressBar1"
+            android:layout_marginLeft="40dp"
+            android:layout_alignParentBottom="true" />
+
+        <com.ead.discorso.VerticalProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/voiceProgressBar11"
+            android:max="100"
+            android:progress="90"
+            android:maxWidth="10dip"
+            android:minWidth="10dip"
+
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/voiceProgressBar1"
+            android:layout_marginRight="40dp"
+            android:layout_alignParentBottom="true" />
+
+        <com.ead.discorso.VerticalProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/voiceProgressBar12"
+            android:max="100"
+            android:progress="90"
+            android:maxWidth="10dip"
+            android:minWidth="10dip"
+            android:layout_marginStart="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/voiceProgressBar1"
+            android:layout_marginLeft="50dp"
+            android:layout_alignParentBottom="true" />
+
+        <com.ead.discorso.VerticalProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/voiceProgressBar13"
+            android:max="100"
+            android:progress="90"
+            android:maxWidth="10dip"
+            android:minWidth="10dip"
+
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/voiceProgressBar1"
+            android:layout_marginRight="50dp"
+            android:layout_alignParentBottom="true" />
+
+        <com.ead.discorso.VerticalProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/voiceProgressBar14"
+            android:max="100"
+            android:progress="90"
+            android:maxWidth="10dip"
+            android:minWidth="10dip"
+            android:layout_marginStart="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/voiceProgressBar1"
+            android:layout_marginLeft="60dp"
+            android:layout_alignParentBottom="true" />
+
+        <com.ead.discorso.VerticalProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/voiceProgressBar15"
+            android:max="100"
+            android:progress="90"
+            android:maxWidth="10dip"
+            android:minWidth="10dip"
+
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/voiceProgressBar1"
+            android:layout_marginRight="60dp"
+            android:layout_alignParentBottom="true" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

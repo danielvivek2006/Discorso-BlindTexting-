@@ -1,0 +1,14 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@android:id/background">
+        <clip>
+
+            <shape>
+                <corners android:radius="0dp"/>
+                <gradient
+                    android:startColor="#673AB7"
+                    android:endColor="#673AB7"
+                    android:angle="90" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Discorso</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash">Welcome</string>
+    <string name="title_activity_main">Home</string>
+    <string name="title_activity_inbox">Inbox</string>
+    <string name="title_activity_create_message">Create message</string>
+    <string name="title_activity_record_message">Record Message</string>
+    <string name="title_activity_send_sms">Send SMS</string>
+    <string name="title_activity_record_contact">Record Contact</string>
+</resources>
